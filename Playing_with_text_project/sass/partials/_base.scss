@@ -1,0 +1,19 @@
+body{
+    font-family: LatoWebLight, Calibri, sans-serif;
+    
+}
+.title {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+    font-size: $basicFontSize;
+    }
+}
+
+.space {
+    width: 1%;
+}
+

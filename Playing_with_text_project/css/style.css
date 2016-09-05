@@ -1,0 +1,34 @@
+/* Webfont: Lato-Light */
+@font-face {
+  font-family: 'LatoWebLight';
+  src: url("./sass/Lato2OFLWeb/fonts/Lato-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("./sass/Lato2OFLWeb/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("./sass/Lato2OFLWeb/fonts/Lato-Light.woff2") format("woff2"), url("./sass/Lato2OFLWeb/fonts/Lato-Light.woff") format("woff"), url("./sass/Lato2OFLWeb/fonts/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: LatoWebLight, Calibri, sans-serif;
+}
+
+.title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title div {
+  font-size: 5rem;
+}
+
+.space {
+  width: 1%;
+}
