@@ -1,6 +1,6 @@
 body{
-    font-family: LatoWebLight, Calibri, sans-serif;
-    
+    font-family: 'Poiret One', cursive;
+       
 }
 .title {
     width: 100vw;
@@ -18,15 +18,15 @@ body{
 }
 
 .skewL:hover {
-    -ms-transform: skewX(25deg); /*IE9*/
-    -webkit-transform: skewX(25deg); /*Safari*/
-    transform: skewX(25deg);
+    -ms-transform: skewX(15deg); /*IE9*/
+    -webkit-transform: skewX(15deg); /*Safari*/
+    transform: skewX(15deg);
 }
 
 .skewR:hover {
-    -ms-transform: skewX(145deg);
-    -webkit-transform: skewX(145deg);
-    transform: skewX(145deg);
+    -ms-transform: skewX(155deg);
+    -webkit-transform: skewX(155deg);
+    transform: skewX(155deg);
 }
  
 @keyframes rotationMove {
@@ -40,5 +40,12 @@ body{
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    transform: rotate(359deg);
 }
+
+div[class*="letter"]{
+      a {
+        width: 100%;
+        height: inherit;
+        }
+}
+      
