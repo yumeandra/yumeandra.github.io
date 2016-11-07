@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+}
+
+.title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.title a {
+  font-size: 5rem;
+  display: block;
+  height: 5rem;
+  text-decoration: none;
+  color: black;
+}
+.title a span {
+  display: block;
+  width: 100%;
+  height: 100;
+}
+
+.space {
+  width: 2%;
+}
+
+.skewL:hover {
+  -ms-transform: skewX(15deg);
+  /*IE9*/
+  -webkit-transform: skewX(15deg);
+  /*Safari*/
+  transform: skewX(15deg);
+}
+
+.skewR:hover {
+  -ms-transform: skewX(155deg);
+  -webkit-transform: skewX(155deg);
+  transform: skewX(155deg);
+}
+
+@keyframes rotationMove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
+.rotate:hover {
+  position: relative;
+  animation-name: rotationMove;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+a:hover {
+  color: silver;
+}
