@@ -1,13 +1,3 @@
-/* Webfont: Lato-Light */
-@font-face {
-  font-family: 'LatoWebLight';
-  src: url("./sass/Lato2OFLWeb/fonts/Lato-Light.eot");
-  /* IE9 Compat Modes */
-  src: url("./sass/Lato2OFLWeb/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("./sass/Lato2OFLWeb/fonts/Lato-Light.woff2") format("woff2"), url("./sass/Lato2OFLWeb/fonts/Lato-Light.woff") format("woff"), url("./sass/Lato2OFLWeb/fonts/Lato-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
 * {
   margin: 0;
   padding: 0;
@@ -24,13 +14,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
-.title div {
+.title a {
   font-size: 5rem;
+  display: block;
+  height: 5rem;
+  text-decoration: none;
+  color: black;
+}
+.title a span {
+  display: block;
+  width: 100%;
+  height: 100;
 }
 
 .space {
-  width: 1%;
+  width: 2%;
 }
 
 .skewL:hover {
@@ -63,7 +63,6 @@ body {
   animation-direction: alternate;
 }
 
-div[class*="letter"] a {
-  width: 100%;
-  height: inherit;
+a:hover {
+  color: silver;
 }
