@@ -14,8 +14,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
+
+.title div{
+  display: flex;
+    flex-direction: row;
+}
+
 .title a {
   font-size: 5rem;
   display: block;
@@ -63,6 +69,8 @@ body {
   animation-direction: alternate;
 }
 
+
 a:hover {
   color: silver;
 }
+
